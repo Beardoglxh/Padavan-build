@@ -128,6 +128,8 @@ jobs:
         sudo ./clear_tree
         mkdir -p /opt/rt-n56u/trunk/tools/go
         wget https://go.dev/dl/go1.15.2.linux-amd64.tar.gz -O /opt/rt-n56u/trunk/tools/go/go1.15.2.linux-amd64.tar.gz
+        mkdir -p /opt/rt-n56u/trunk/user/htop
+        wget https://sources.buildroot.net/htop/htop-3.0.2.tar.gz -O /opt/rt-n56u/trunk/user/htop/htop-3.0.2.tar.gz
         sudo ./build_firmware_modify $TNAME 0
         sudo mv -f images/*.trx /opt/images/
     - name : Upload packages
