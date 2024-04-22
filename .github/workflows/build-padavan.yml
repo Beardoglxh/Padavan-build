@@ -47,7 +47,7 @@ jobs:
         cd /opt/hostedtoolcache/go
         ls -alh
         rm -rf /opt/hostedtoolcache/go/1.14.13
-        mv 1.15.6 1.14.13
+        mv 1.21.9 1.14.13
 
     - name: Build Firmware
       env:
