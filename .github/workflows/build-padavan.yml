@@ -140,8 +140,9 @@ jobs:
         mkdir -p /opt/rt-n56u/trunk/user/htop
         wget https://sources.buildroot.net/htop/htop-3.0.2.tar.gz -O /opt/rt-n56u/trunk/user/htop/htop-3.0.2.tar.gz
         sudo mkdir -p /opt/rt-n56u/trunk/stage/include/
+        sudo mkdir -p /opt/rt-n56u/trunk/stage/lib
         sudo cp /usr/include/lz4.h /opt/rt-n56u/trunk/stage/include/
-        sudo cp /usr/lib/x86_64-linux-gnu/liblz4.a /opt/rt-n56u/trunk/stage/include/
+        sudo cp /usr/lib/x86_64-linux-gnu/liblz4.a /opt/rt-n56u/trunk/stage/lib
         sudo ./build_firmware_modify $TNAME 0
         sudo mv -f images/*.trx /opt/images/
     - name : Upload packages
