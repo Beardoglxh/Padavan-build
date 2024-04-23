@@ -55,6 +55,7 @@ jobs:
     - name: Set environment for build
       run: |
         echo "CFLAGS=-I/usr/include/lz4 ${CFLAGS}" >> $GITHUB_ENV
+        sudo cp /usr/include/lz4.h /opt/rt-n56u/trunk/stage/include/
     - name: Build Firmware
       env:
         TNAME: R2100
