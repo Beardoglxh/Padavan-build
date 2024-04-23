@@ -48,7 +48,8 @@ jobs:
         ls -alh
         rm -rf /opt/hostedtoolcache/go/1.14.13
         mv 1.21.9 1.14.13
-
+    - name: Check lz4.h presence
+      run: ls -l /usr/include/lz4.h
     - name: Build Firmware
       env:
         TNAME: R2100
