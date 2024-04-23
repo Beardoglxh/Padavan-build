@@ -50,6 +50,9 @@ jobs:
         mv 1.21.9 1.14.13
     - name: Check lz4.h presence
       run: ls -l /usr/include/lz4.h
+    - name: Set environment for build
+      run: |
+        echo "C_INCLUDE_PATH=/usr/include/lz4:$C_INCLUDE_PATH" >> $GITHUB_ENV
     - name: Build Firmware
       env:
         TNAME: R2100
