@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-19T03:14:54.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="dvonCwF4RIzvMnWlqBtp" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-19T03:15:42.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="gIg6AXFa_qLzZKkqhKjn" version="24.4.4" type="github">
   <diagram name="第 1 页" id="aqMNl-bvQ39ERQNsg_rg">
-    <mxGraphModel dx="2089" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1662" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,7 +202,7 @@
         <mxCell id="5GAEW1r81nBdfO-N4fRW-69" value="Stochastic with elastic action Decision Transformer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontFamily=Tahoma;fontColor=#566E8B;" vertex="1" parent="1">
           <mxGeometry x="160" y="130" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-70" value="这个网络一个是用来解决随机性的问题，&lt;div&gt;另外一个根据state预测的分布，来优化RTG，保证RTG可以让transformer的效果更好&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5GAEW1r81nBdfO-N4fRW-70" value="这个网络一个是用来解决随机性的问题，&lt;div&gt;另外一个根据state预测的分布，来优化RTG，保证RTG可以让transformer的效果更好（待确认）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="490" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#566E8B;" edge="1" parent="1" target="5GAEW1r81nBdfO-N4fRW-70">
