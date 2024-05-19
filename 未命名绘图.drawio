@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-19T03:15:42.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="gIg6AXFa_qLzZKkqhKjn" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-19T03:17:41.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="PNFMxpYhgXjuPG2Hmfjo" version="24.4.4" type="github">
   <diagram name="第 1 页" id="aqMNl-bvQ39ERQNsg_rg">
     <mxGraphModel dx="1662" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -196,16 +196,16 @@
             <mxPoint x="580" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-67" value="这块同样可以用QDT解释DT的拼接问题那个最短路径的图来解释，为什么这样可以解决拼接问题&lt;div&gt;但是由于随机性的问题，我们还是需要用概率来拟合。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="210" width="210" height="85" as="geometry" />
+        <mxCell id="5GAEW1r81nBdfO-N4fRW-67" value="这块同样可以用QDT解释DT的拼接问题那个最短路径的图来解释，为什么这样可以解决拼接问题&lt;div&gt;但是由于随机性的问题，我们还是需要用概率来拟合。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566E8B;" vertex="1" parent="1">
+          <mxGeometry x="743" y="242" width="210" height="85" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-69" value="Stochastic with elastic action Decision Transformer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontFamily=Tahoma;fontColor=#566E8B;" vertex="1" parent="1">
           <mxGeometry x="160" y="130" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-70" value="这个网络一个是用来解决随机性的问题，&lt;div&gt;另外一个根据state预测的分布，来优化RTG，保证RTG可以让transformer的效果更好（待确认）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5GAEW1r81nBdfO-N4fRW-70" value="这个网络一个是用来解决随机性的问题，&lt;div&gt;另外一个根据state预测的分布，来优化RTG，保证RTG可以让transformer的效果更好（待确认）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566E8B;" vertex="1" parent="1">
           <mxGeometry x="720" y="490" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#566E8B;" edge="1" parent="1" target="5GAEW1r81nBdfO-N4fRW-70">
+        <mxCell id="5GAEW1r81nBdfO-N4fRW-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#566E8B;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" target="5GAEW1r81nBdfO-N4fRW-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="610" as="sourcePoint" />
             <mxPoint x="690" y="560" as="targetPoint" />
@@ -309,10 +309,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-105" value="利用QDT的思想来优化RTG" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="5GAEW1r81nBdfO-N4fRW-105" value="利用QDT的思想来优化RTG" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566E8B;" vertex="1" parent="1">
           <mxGeometry x="-80" y="500" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-107" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#566E8B;" edge="1" parent="1">
+        <mxCell id="5GAEW1r81nBdfO-N4fRW-107" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#566E8B;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="510" as="sourcePoint" />
             <mxPoint x="140" y="420" as="targetPoint" />
