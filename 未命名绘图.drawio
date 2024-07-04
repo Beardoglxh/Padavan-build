@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T08:16:36.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="5071314xvOGJywR6vKqs" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T08:23:04.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="w_wycNqOqAGf4rX6lu9v" version="24.6.4" type="github">
   <diagram name="第 1 页" id="aqMNl-bvQ39ERQNsg_rg">
-    <mxGraphModel dx="2156" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+    <mxGraphModel dx="2355" dy="654" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,12 +124,6 @@
             <mxPoint x="359.88" y="400" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="439.88" y="380" as="targetPoint" />
-            <mxPoint x="439.88" y="400" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="5GAEW1r81nBdfO-N4fRW-45" target="5GAEW1r81nBdfO-N4fRW-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280.1111111111111" y="270" as="targetPoint" />
@@ -178,12 +172,6 @@
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-64" value="Transformer架构也需调整" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#566E8B;" parent="1" vertex="1">
           <mxGeometry x="-80" y="410" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-66" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5GAEW1r81nBdfO-N4fRW-46" target="5GAEW1r81nBdfO-N4fRW-67" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="320" as="sourcePoint" />
-            <mxPoint x="580" y="360" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-67" value="这块同样可以用QDT解释DT的拼接问题那个最短路径的图来解释，为什么这样可以解决拼接问题&lt;div&gt;但是由于随机性的问题，我们还是需要用概率来拟合。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566E8B;" parent="1" vertex="1">
           <mxGeometry x="933" y="299" width="210" height="85" as="geometry" />
@@ -272,7 +260,7 @@
         <mxCell id="2eXcptGuXsU667o_r7Nx-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="2eXcptGuXsU667o_r7Nx-34" target="2eXcptGuXsU667o_r7Nx-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2eXcptGuXsU667o_r7Nx-34" value="Uncertainty Estimation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#999900;" vertex="1" parent="1">
+        <mxCell id="2eXcptGuXsU667o_r7Nx-34" value="Uncertainty Estimation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="360" y="546.5" width="160" height="33" as="geometry" />
         </mxCell>
         <mxCell id="2eXcptGuXsU667o_r7Nx-41" value="&lt;span style=&quot;font-family: Tahoma;&quot;&gt;$$u_{t-1}$$&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontColor=#566E8B;" vertex="1" parent="1">
@@ -382,6 +370,28 @@
         </mxCell>
         <mxCell id="2eXcptGuXsU667o_r7Nx-73" value="两种方案把，这样设计相当于让DT去学习输出多少个动作，需要设计损失函数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566e8b;" vertex="1" parent="1">
           <mxGeometry x="955" y="465" width="208" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="2eXcptGuXsU667o_r7Nx-75" target="5GAEW1r81nBdfO-N4fRW-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-75" value="&lt;font face=&quot;Tahoma&quot;&gt;$$n$$&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="352.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endArrow=none;endFill=0;exitX=0.503;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2eXcptGuXsU667o_r7Nx-75" target="5GAEW1r81nBdfO-N4fRW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="379" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="2eXcptGuXsU667o_r7Nx-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-81" value="&lt;font face=&quot;Tahoma&quot;&gt;$$n$$&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="352.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.938;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endArrow=none;endFill=0;" edge="1" parent="1" source="2eXcptGuXsU667o_r7Nx-81" target="5GAEW1r81nBdfO-N4fRW-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
