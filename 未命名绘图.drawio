@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T07:40:42.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="93isIEfDjXj5Je7loxu7" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T08:15:41.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="LFgksbL_50tnzrhlpzQc" version="24.6.4" type="github">
   <diagram name="第 1 页" id="aqMNl-bvQ39ERQNsg_rg">
-    <mxGraphModel dx="2156" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+    <mxGraphModel dx="1860" dy="374" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,23 +149,17 @@
         <mxCell id="5GAEW1r81nBdfO-N4fRW-47" value="n为超参数，让transformer输出若干组奖励可能比较高的动作，这个n可不可以是动态的呢？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#566E8B;" parent="1" vertex="1">
           <mxGeometry x="-80" y="350" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="5GAEW1r81nBdfO-N4fRW-48" target="5GAEW1r81nBdfO-N4fRW-57" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="5GAEW1r81nBdfO-N4fRW-48" target="5GAEW1r81nBdfO-N4fRW-58" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-48" value="critic network(pretrained)(CQL model)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontStyle=0;fontColor=#566E8B;" parent="1" vertex="1">
-          <mxGeometry x="160" y="290" width="480" height="40" as="geometry" />
+          <mxGeometry x="160" y="290" width="640" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-49" value="stochastic network(pretrained)(Essembled learning)(Dropout)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontStyle=0;fontColor=#566E8B;" parent="1" vertex="1">
           <mxGeometry x="159" y="655.5" width="648" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-52" value="$$\hat{a}_{t-1}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontColor=#566E8B;" parent="1" vertex="1">
-          <mxGeometry x="267.5" y="210" width="25" height="25" as="geometry" />
+          <mxGeometry x="267.5" y="205" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-54" value="&lt;span style=&quot;font-family: Tahoma;&quot;&gt;$$\hat{a}_{t}$$&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontColor=#566E8B;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="210" width="25" height="25" as="geometry" />
+          <mxGeometry x="612.5" y="205" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="5GAEW1r81nBdfO-N4fRW-57" target="5GAEW1r81nBdfO-N4fRW-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -176,11 +170,8 @@
         <mxCell id="5GAEW1r81nBdfO-N4fRW-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="240" y="250" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5GAEW1r81nBdfO-N4fRW-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="5GAEW1r81nBdfO-N4fRW-58" target="5GAEW1r81nBdfO-N4fRW-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="480" y="250" width="80" height="20" as="geometry" />
+          <mxGeometry x="585" y="250" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-63" value="损失函数待确认，这块概率的想法感觉还需要多读一些文章" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#566E8B;" parent="1" vertex="1">
           <mxGeometry x="-80" y="590" width="150" height="30" as="geometry" />
@@ -195,13 +186,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-67" value="这块同样可以用QDT解释DT的拼接问题那个最短路径的图来解释，为什么这样可以解决拼接问题&lt;div&gt;但是由于随机性的问题，我们还是需要用概率来拟合。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566E8B;" parent="1" vertex="1">
-          <mxGeometry x="871" y="228" width="210" height="85" as="geometry" />
+          <mxGeometry x="933" y="299" width="210" height="85" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-69" value="Stochastic with elastic action Decision Transformer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontFamily=Tahoma;fontColor=#566E8B;" parent="1" vertex="1">
           <mxGeometry x="160" y="130" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-70" value="这个网络一个是用来解决随机性的问题，&lt;div&gt;另外一个根据state预测的分布，来优化RTG，保证RTG可以让transformer的效果更好（待确认）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566E8B;" parent="1" vertex="1">
-          <mxGeometry x="871" y="565" width="220" height="80" as="geometry" />
+          <mxGeometry x="889" y="620" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5GAEW1r81nBdfO-N4fRW-73" value="$$s_{t-1}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontColor=#566E8B;" parent="1" vertex="1">
           <mxGeometry x="186.5" y="755.5" width="25" height="25" as="geometry" />
@@ -254,7 +245,7 @@
         <mxCell id="2eXcptGuXsU667o_r7Nx-6" value="$$\left\{N\left(\mu_{\phi_{i}}\left(s_{t}, a_{t}\right), \hat{\Sigma}_{\phi_{i}}\left(s_{t}, a_{t}\right)\right)\right\}_{i=1}^{H}$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="160" y="600" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2eXcptGuXsU667o_r7Nx-13" value="$$r_{t-1}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Tahoma;fontColor=#566E8B;" vertex="1" parent="1">
+        <mxCell id="2eXcptGuXsU667o_r7Nx-13" value="$$\hat{r}_{t-1}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Tahoma;fontColor=#566E8B;" vertex="1" parent="1">
           <mxGeometry x="187.5" y="550" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="2eXcptGuXsU667o_r7Nx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1" source="2eXcptGuXsU667o_r7Nx-15" target="2eXcptGuXsU667o_r7Nx-34">
@@ -265,6 +256,9 @@
         </mxCell>
         <mxCell id="2eXcptGuXsU667o_r7Nx-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="2eXcptGuXsU667o_r7Nx-24" target="2eXcptGuXsU667o_r7Nx-73">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2eXcptGuXsU667o_r7Nx-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="720" y="460" width="80" height="20" as="geometry" />
@@ -367,6 +361,27 @@
             <mxPoint x="640" y="655" as="sourcePoint" />
             <mxPoint x="640" y="630" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.9" y="270" as="targetPoint" />
+            <mxPoint x="279.9" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624.92" y="270" as="targetPoint" />
+            <mxPoint x="624.92" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624.92" y="230" as="targetPoint" />
+            <mxPoint x="624.92" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eXcptGuXsU667o_r7Nx-73" value="两种方案把，这样设计相当于让DT去学习输出多少个动作，需要设计损失函数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#566e8b;" vertex="1" parent="1">
+          <mxGeometry x="955" y="465" width="208" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
